@@ -16,3 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('glide/{path}', function($path){
+    $server = \League\Glide\ServerFactory::create([
+        'source' => app('filesystem')->disk('public')->getDriver(),
+        'cache' => storage_path('glide'),
+    ]);
+    return $server->getImageResponse($path, Input::query());
+})->where('path', '.+');

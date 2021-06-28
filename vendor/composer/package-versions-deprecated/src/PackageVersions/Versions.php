@@ -39,8 +39,10 @@ final class Versions
   'barryvdh/elfinder-flysystem-driver' => 'v0.3.0@5a6c893dfb97e9848d7b1e5e990e943af7bc3550',
   'barryvdh/laravel-elfinder' => 'v0.4.7@f2a5f7d2b69b7c2f5419b0b02874b91b6d480c6c',
   'brick/math' => '0.9.2@dff976c2f3487d42c1db75a3b180e2b9f0e72ce0',
+  'cocur/slugify' => 'v4.0.0@3f1ffc300f164f23abe8b64ffb3f92d35cec8307',
   'composer/package-versions-deprecated' => '1.11.99.2@c6522afe5540d5fc46675043d3ed5a45a740b27c',
   'creativeorange/gravatar' => 'v1.0.20@8c2c1a3a59fdf05f50c9d9413dd9d2d50835e017',
+  'cviebrock/eloquent-sluggable' => '8.0.8@16e21db24d80180f870c3c7c4faf3d3af23f4117',
   'doctrine/cache' => '2.0.3@c9622c6820d3ede1e2315a6a377ea1076e421d88',
   'doctrine/dbal' => '3.1.1@8e0fde2b90e3f61361013d1e928621beeea07bc0',
   'doctrine/deprecations' => 'v0.5.3@9504165960a1f83cc1480e2be1dd0a0478561314',
@@ -154,7 +156,7 @@ final class Versions
   'sebastian/type' => '2.3.4@b8cd8a1c753c90bc1a0f5372170e3e489136f914',
   'sebastian/version' => '3.0.2@c6c1022351a901512170118436c764e473f6de8c',
   'theseer/tokenizer' => '1.2.0@75a63c33a8577608444246075ea0af0d052e452a',
-  'laravel/laravel' => '1.0.0+no-version-set@',
+  'laravel/laravel' => 'dev-master@00a913c2c361d0d74c432e278bf45e1985a2bab9',
 );
 
     private function __construct()

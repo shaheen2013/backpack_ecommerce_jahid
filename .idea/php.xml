@@ -123,6 +123,8 @@
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
       <path value="$PROJECT_DIR$/vendor/league/flysystem-cached-adapter" />
       <path value="$PROJECT_DIR$/vendor/studio-42/elfinder" />
+      <path value="$PROJECT_DIR$/vendor/cviebrock/eloquent-sluggable" />
+      <path value="$PROJECT_DIR$/vendor/cocur/slugify" />
     </include_path>
   </component>
   <component name="PhpUnit">

@@ -1,12 +1,12 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '00a913c2c361d0d74c432e278bf45e1985a2bab9',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
@@ -74,6 +74,15 @@
       ),
       'reference' => 'dff976c2f3487d42c1db75a3b180e2b9f0e72ce0',
     ),
+    'cocur/slugify' => 
+    array (
+      'pretty_version' => 'v4.0.0',
+      'version' => '4.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '3f1ffc300f164f23abe8b64ffb3f92d35cec8307',
+    ),
     'composer/package-versions-deprecated' => 
     array (
       'pretty_version' => '1.11.99.2',
@@ -98,6 +107,15 @@
       array (
       ),
       'reference' => '8c2c1a3a59fdf05f50c9d9413dd9d2d50835e017',
+    ),
+    'cviebrock/eloquent-sluggable' => 
+    array (
+      'pretty_version' => '8.0.8',
+      'version' => '8.0.8.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '16e21db24d80180f870c3c7c4faf3d3af23f4117',
     ),
     'davedevelopment/hamcrest-php' => 
     array (
@@ -548,12 +566,12 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '00a913c2c361d0d74c432e278bf45e1985a2bab9',
     ),
     'laravel/sail' => 
     array (
