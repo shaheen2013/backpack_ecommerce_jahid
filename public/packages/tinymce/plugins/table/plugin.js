@@ -7598,7 +7598,7 @@
       {
         name: 'scope',
         type: 'listbox',
-        label: 'Scope',
+        label: 'Scopes',
         items: [
           {
             text: 'None',

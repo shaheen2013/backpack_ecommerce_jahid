@@ -2,13 +2,15 @@
 
 namespace App\Models;
 
+use App\Models\Traits\AddAuthUser;
+use App\Scopes\UserDataList;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class Brand extends Model
 {
-    use CrudTrait, SoftDeletes;
+    use CrudTrait, SoftDeletes, AddAuthUser;
 
     /*
     |--------------------------------------------------------------------------
@@ -83,4 +85,8 @@ class Brand extends Model
     | MUTATORS
     |--------------------------------------------------------------------------
     */
+//    public function setCreatedByAttribute($value) {
+//        dd($value);
+//        $this->attributes['created_by'] = 3;
+//    }
 }

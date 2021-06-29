@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Scopes\UserDataList;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -53,7 +54,11 @@ class Category extends Model
     | SCOPES
     |--------------------------------------------------------------------------
     */
-
+    protected static function boot()
+    {
+        parent::boot();
+        static::addGlobalScope(new UserDataList);
+    }
     /*
     |--------------------------------------------------------------------------
     | ACCESSORS

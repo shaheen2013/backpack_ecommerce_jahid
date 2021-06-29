@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Scopes\UserDataList;
 use Backpack\CRUD\app\Models\Traits\CrudTrait;
 use Cviebrock\EloquentSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
@@ -58,7 +59,11 @@ class Product extends Model
     | SCOPES
     |--------------------------------------------------------------------------
     */
-
+    protected static function boot()
+    {
+        parent::boot();
+        static::addGlobalScope(new UserDataList);
+    }
     /*
     |--------------------------------------------------------------------------
     | ACCESSORS
